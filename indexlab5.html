@@ -1,4 +1,4 @@
-<!-- index.html -->
+
 <!DOCTYPE html>
 <html lang="id">
 <head>
@@ -9,6 +9,70 @@
 <body>
     <h1>Pengenalan JavaScript</h1>
     <p id="pesan">Konten awal.</p>
-    <script src="script.js"></script>
+
+    <hr>
+    <h2>Kalkulator Nilai Mahasiswa</h2>
+
+    <label>Nilai Tugas:</label>
+    <input type="number" id="tugas" min="0" max="100">
+    <br><br>
+
+    <label>Nilai UTS:</label>
+    <input type="number" id="uts" min="0" max="100">
+    <br><br>
+
+    <label>Nilai UAS:</label>
+    <input type="number" id="uas" min="0" max="100">
+    <br><br>
+
+    <button type="button" onclick="hitungKalkulator()">
+        Hitung Nilai
+    </button>
+    <p id="hasilNilai"></p>
+
+    <hr>
+    <h2>Pemeriksaan Bilangan</h2>
+
+    <label for="bilangan">Masukkan bilangan bulat:</label>
+    <input type="number" id="bilangan" step="1">
+    <button type="button" onclick="cekBilangan()">Periksa</button>
+    <p id="hasilBilangan"></p>
+
+    <hr>
+    <h2>Daftar Menu Makanan</h2>
+
+    <label>
+        <input type="checkbox" class="menu" value="5000">
+        Ayam Goreng — Rp5.000
+    </label><br>
+
+    <label>
+        <input type="checkbox" class="menu" value="500">
+        Tempe — Rp500
+    </label><br>
+
+    <label>
+        <input type="checkbox" class="menu" value="2500">
+        Telur Dadar — Rp2.500
+    </label><br>
+
+    <p>Total: Rp<span id="total">0</span></p>
+
+    <hr>
+    <h2>Mengubah Warna Latar</h2>
+
+    <button type="button" onclick="ubahWarnaLatar('lightgreen')">
+        Latar Hijau
+    </button>
+
+    <button type="button" onclick="ubahWarnaLatar('white')">
+        Latar Putih
+    </button>
+
+    <button type="button" onclick="ubahWarnaLatar('lightyellow')">
+        Latar Kuning
+    </button>
+
+    <script src="Lab5.js"></script>
 </body>
 </html>
