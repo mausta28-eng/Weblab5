@@ -181,7 +181,7 @@ Dengan validasi ini, data yang dimasukkan bisa diperiksa terlebih dahulu sebelum
 ![Gambar 2](Screenshot5/Alert_prompt.png)
 
 ### Konsdisi seleksi if-else
-1[Gambar 3](Screenshot5/Seleksi%20_kondisi_if–else.png)
+![Gambar 3](Screenshot5/Seleksi%20_kondisi_if–else.png)
 
 ### Form bilangan genap atau ganjil
 ![Gambar 4](Screenshot5/Form_bilangan%20genap_atau_ganjil.png)
